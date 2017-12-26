@@ -40,4 +40,4 @@ while True:
         api.update_status(tweet)
         time.sleep(86400)
     else:
-        time.sleep(21600)
+        time.sleep(43200)
