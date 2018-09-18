@@ -26,7 +26,7 @@ def find_repo(wordOfDay):
             break
 
     if found_repo:
-      return "The word of the day is '" + wordOfDay + "'. Github repo: " + found_repo.name + " by " + found_repo.owner.login + " " + found_repo.html_url
+      return "The word of the day is '" + wordOfDay + "'. GitHub repo: " + found_repo.name + " by " + found_repo.owner.login + " " + found_repo.html_url
     else:
       return "No repo exists for '" + wordOfDay + "'! Maybe you should make one?"
 
